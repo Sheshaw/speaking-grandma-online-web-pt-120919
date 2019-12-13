@@ -1,5 +1,7 @@
-def speak_to_grandma(user_input = gets.chomp!)
+def speak_to_grandma
   print " Say something to Grandma : "
+  user_input = gets.chomp!
+  
   
   if  user_input == "I LOVE YOU GRANDMA!"
     print "I LOVE YOU TOO PUMPKIN!"
