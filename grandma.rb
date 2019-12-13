@@ -12,3 +12,5 @@ def speak_to_grandma(user_input = gets.chomp!)
     
   end
 end
+
+speak_to_grandma
